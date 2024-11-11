@@ -1,7 +1,7 @@
 name: tests
 on: push
 jobs:
-  run_tests:
+  run-tests:
    runs_on: ubuntu-latest
    steps:
       - name: Checkout the repository
